@@ -18,6 +18,6 @@ url: "http://bootstrapjet.com" # the base hostname & protocol for your site
 markdown: kramdown
 
 # Plugins
-gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+ #gems:
+ # - jekyll-sitemap
+ # - jekyll-seo-tag
