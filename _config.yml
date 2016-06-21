@@ -7,7 +7,7 @@
 
 # Site settings
 title: Bootstrapjet
-email: hello@bootstrapjet.com
+email: hello[at]bootstrapjet.com
 description: > # this means to ignore newlines until "baseurl:"
   Awesome Free Bootstrap 4 Themese for Speed Web Development. 
 baseurl: "" # the subpath of your site, e.g. /blog
