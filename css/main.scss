@@ -51,3 +51,69 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+
+.svg-container {
+	width: 250px;
+	height: 200px;
+	margin: 150px auto;
+}
+
+svg {
+	width: 90%;
+	height: auto;
+}
+
+@keyframes flames {
+  0%   {transform: scale(1, 1)}
+  50%  {transform: scale(1,1.1)}
+  100% {transform: scale(1, 1)}
+}
+
+@keyframes cloud-1 {
+  0%   {opacity: 0}
+  50% { opacity: 1 }
+  100%  {transform: translate( 0px,10px)}
+  100% {opacity: 0}
+}
+
+@keyframes cloud-2 {
+  0%   {opacity: 0}
+  50% { opacity: 1 }
+  100%  {transform: translate( 0px,10px)}
+  100% {opacity: 0}
+}
+
+@keyframes jet-moves {
+	0% { transform: rotate(0.5deg); }
+	45% { transform: rotate(0deg); }
+	90% { transform: rotate(-0.5deg); }
+}
+
+@keyframes jet-move {
+	0% { transform: translateY(0.8px); }
+	50% { transform: translateY(0px); }
+	100% { transform: translateY(0.8px); }
+
+}
+
+
+svg #flame {
+  animation : flames .2s ease-out infinite;
+  transform-origin: left top;
+}
+
+
+
+svg #cloud-1 {
+	animation: cloud-1 3s linear infinite;
+}
+
+svg #cloud-2 {
+	animation: cloud-2 4s linear infinite;
+}
+
+svg #jet {
+	animation: jet-move 3s ease-out infinite;
+	transform-origin: botom center;
+}
