@@ -1,17 +1,19 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2016-06-19 13:31:48 +0530
+date:   2016-07-05 19:14:06 +0530
 categories: jekyll update
+image : 'asset/img/app.jpg'
+discription : Jekyll also offers powerful support for code snippets
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `console.log('hello')`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
+{% highlight javascript %}
+var myName = 'Khan';
   puts "Hi, #{name}"
 end
 print_hi('Tom')

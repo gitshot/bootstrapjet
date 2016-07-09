@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- injecting head -->
+  {% include head.html %}
+
+  <body>
+<!-- injecting Header -->
+    {% include header.html %}
+
+<div class="container">
+  <div class='row gallary-head text-center'>
+    <div class="col-lg-10 col-lg-offset-1 no-padding">
+      <h1 class="font-rg">{{ page.title }}</h1>
+      <p>{{ page.discription}}</p>
+      <hr>
+    </div>
+  </div>
+
+  <div class="row blog-posts">
+
+    <div class="col-lg-6 col-lg-offset-3  col-sm-12"> 
+  
+          	{{ content }}
+
+     </div>
+    </div>
+
+<!-- old/new post Buttons --> 
+
+
+<!-- injecting footer -->
+    {% include footer.html %}
+
+  </body>
+</html>
