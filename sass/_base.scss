@@ -1,0 +1,31 @@
+body {
+	font-family: $my_fonts;
+	font-weight: $font_rg;
+	color: $text_dark;
+	background-image: url('/asset/img/bg.png');
+
+	h1 {
+		font-size: 38px;
+		color: $text_dark;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	h3	{
+		font-size: 26px;
+	}
+
+	h4 {
+		font-size: 22px;
+	}
+}
+
+.text-center {
+	text-align: center;
+}
+
+.cf {
+	clear: both;
+}
