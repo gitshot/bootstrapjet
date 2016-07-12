@@ -1,16 +1,20 @@
 ---
-layout: blog-home
-title: Blog
-discription : Get Updates of BootstrapJet.
-permalink: /blog/
+layout: blog_home
 ---
 
-	
-{% for post in site.posts %}
+ {% for post in site.posts %}
 
-        <div class="post">
-            <p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-            <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-          </div>
+<div class="posts">
 
- {% endfor %}
+	<h5 class="date">{{ post.date | date: "%b %-d, %Y" }}</h5>
+
+	<h2 class="title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
+	<p class="discription">{{ post.excerpt }}</p>
+
+	<a href="{{ post.url | prepend: site.baseurl }}" class="post-btn">ReadMore &#8594;</a>
+
+	<hr>
+</div>
+
+{% endfor %}

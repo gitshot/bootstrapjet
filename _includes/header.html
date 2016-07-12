@@ -1,33 +1,22 @@
+
 <!-- Navigation -->
 
-<div class="container no-padding">
-<div class="col-lg-10 col-lg-offset-1 no-padding">
-<nav class="navbar navbar-custom">
-
-  <button class="navbar-toggler hidden-sm-up pull-xs-right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
-    &#9776;
-  </button>
-  <a class="navbar-brand" href="{{ site.baseurl }}/">Bootstrap Jet</a>
-  <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-      <ul class="nav navbar-nav pull-lg-right pull-md-right pull-sm-right">
-
-             <li class="nav-item">
-              <a class="nav-link" href="http://bootstrapjet.com/#themes">Themes</a>
-            </li>
-
-         {% for my_page in site.pages limit:1 %}
-          {% if my_page.title %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ my_page.url }}">{{ my_page.title }}</a>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
       
+      <nav class="nav">
+        <a href="{{ site.url }}" class="logo">Bootstrap<span>Jet</span></a>
+
+        <ul class="menu">
+          <li><a href="{{ site.url }}/index.html#themes">Themes</a></li>
+          <li><a href="{{ site.url }}/blog.html">Blog</a></li>
+        </ul>
+      </nav>
+
     </div>
   </div>
-
-</nav>
 </div>
 
-<!-- ./Navigation -->
+
+<!-- Navigation END-->

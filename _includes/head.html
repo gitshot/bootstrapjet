@@ -1,13 +1,13 @@
-  <head>
-    <!-- Required meta tags always come first -->
+<head>
+	<!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title> {{ site.brandname }} | {{ page.title }}</title>
+     <title>Bootstrap Jet | {% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-    <!-- Load CSS files -->
-    {% include load_css.html %}
+     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  </head>
-
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/asset/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/asset/css/main.css">
+</head>

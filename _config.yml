@@ -6,16 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-brandname: BootstrapJet
-title: Free Responsive Bootstrap Themes and Templates
-email: your-email@domain.com
+title: Free Responsive Bootstrap Theme and Templates
 description: > # this means to ignore newlines until "baseurl:"
-  Bootstrap Jet, A Liblary focused on free Responsive Bootstrap 4 Themes 
-  and Templates. That Totally Free to use on personal or commercial projects.
+  Free HTML Themes and Templates for speedup your Bootstrap 4 web 
+  development with minimal design and lightweight coding.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "localhost" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+github_username:  gitShot
 
 # Build settings
 markdown: kramdown

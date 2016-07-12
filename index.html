@@ -1,32 +1,16 @@
 ---
 layout: homepage
-title: Free Responsive Bootstrap Themes and Templates.
 ---
 
-<div class="container">
-  <div class='row gallary-head text-center'>
-    <div class="col-lg-10 col-lg-offset-1 no-padding">
-      <h2>Theme Gallary</h2>
-      <p>Feel free to use any of these themes on your personal or commercial projects.</p>
+
+
+
+ {% for post in site.themes %}
+    <div class="theme">
+        <img src="{{ site.url }}/{{ post.img }}" class="responsive">
+          <hr>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="btn-theme">Download</a>
+        <h4>{{ post.title }}</h4>
     </div>
 
-  </div>
-
-
-  <div class="row gallary-body">
-    <div class="col-lg-10 col-lg-offset-1  col-sm-12 no-padding">
-     {% for post in site.themes %}
-      <div class="col-lg-4 col-sm-6">
-          <div class="card text-center">
-      
-            <img class="img-responsive" src="{{ post.image }}">
-            <h4>{{ post.title }}</h4>
-            <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-outline">Preview & Download</a>
-            
-          </div> 
-      </div>    
-     {% endfor %}
-    </div>
-  </div>
-</div>
-
+  {% endfor %}
