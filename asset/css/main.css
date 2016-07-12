@@ -183,7 +183,7 @@ body {
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
-    margin: 0px 0px 0px; }
+    margin: 0px 0px 12px; }
     .blog-bg .title a {
       color: #4B4B57; }
     .blog-bg .title a:hover, .blog-bg .title a:active, .blog-bg .title a:focus {
@@ -578,5 +578,4 @@ body {
     color: #008080; }
   .highlight .il {
     color: #099; }
-
 /*# sourceMappingURL=main.css.map */
