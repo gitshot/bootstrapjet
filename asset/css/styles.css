@@ -156,6 +156,8 @@ body {
 
 #post {
   padding-top: 10px; }
+  #post a {
+    color: #4DB8DE; }
 
 .blog-bg {
   background-color: #fff;
