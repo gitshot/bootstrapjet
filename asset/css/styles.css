@@ -1,4 +1,7 @@
-
+/* Importing Files */
+/* Dfining colors */
+/* Pointing colors */
+/* font */
 body {
   font-family: rubik, helvetica, sans-serif;
   font-weight: 400;
@@ -209,7 +212,7 @@ body {
     margin: 10px; }
 
 .post-header {
-  width: 1000px;
+  max-width: 800px;
   text-align: center;
   margin: 40px auto; }
   .post-header h1 {
@@ -575,3 +578,5 @@ body {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+/*# sourceMappingURL=main.css.map */
