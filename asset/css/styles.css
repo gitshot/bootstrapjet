@@ -158,8 +158,9 @@ body {
   padding-top: 10px; }
   #post a {
     color: #4DB8DE; }
-  #post p {
-    margin: 20px auto; }
+    #post p {
+      margin: 20px auto;
+    }
 
 .blog-bg {
   background-color: #fff;
@@ -175,9 +176,10 @@ body {
   .blog-bg p {
     font-size: 18px;
     color: #9CA0B4;
-    line-height: 34px; }
+    line-height: 34px;
+     }
   .blog-bg .discription {
-    margin: -0px auto 40px; }
+    margin: -10px auto 40px; }
   .blog-bg .big {
     font-size: 22px; }
   .blog-bg .indent {
