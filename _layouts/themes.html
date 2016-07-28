@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+
+
+
+    <div class="post-header">
+        <h1>{{ page.title }}</h1>
+      </div>
+
+
+      <div class="container" id="theme-overview">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1">
+
+            <div class="blog-bg">
+
+              <img src="{{ site.url }}{{ page.image }}">
+              <a target="_blank" href="{{ page.demo }}" class="btn btn-theme-out">Preview</a>
+              <a href="{{ page.download }}" class="btn btn-theme">Download</a>
+
+            </div>
+
+            <div class="blog-bg">
+
+              <div class="theme-disc">
+                <h3>Overview</h3>
+                <p>{{ page.description }}</p>
+              </div>
+
+              <div class="vr"></div>
+
+              <div class="theme-feat">
+                <h3>Highlights</h3>
+                <ul>
+                  {{ page.features }}
+                </ul>
+              </div>
+
+            </div>
+
+
+            <div class="blog-bg">
+              <h4>Show Some Love <span><img class="heart" src="{{ site.url }}/asset/img/hearts.svg"></span></h4>
+
+
+
+                  <!-- Place this tag where you want the button to render. -->
+    <a class="github-button" href="https://github.com/gitshot/{{ page.name }}" data-style="mega" data-count-href="/gitshot/{{ page.name }}/stargazers" data-count-api="/repos/gitshot/{{ page.name }}#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star gitshot/{{ page.name }} on GitHub">Star</a>
+    <!-- Place this tag where you want the button to render. -->
+    <a class="github-button" href="https://github.com/gitshot/{{ page.name }}" data-icon="octicon-eye" data-style="mega" data-count-href="/gitshot/{{ page.name }}/watchers" data-count-api="/repos/gitshot/{{ page.name }}#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch gitshot/{{ page.name }} on GitHub">Watch</a>
+            </div>
+
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+</html>

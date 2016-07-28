@@ -8,17 +8,17 @@
 # Site settings
 title: Free Responsive Bootstrap Theme and Templates
 description: > # this means to ignore newlines until "baseurl:"
-  Free HTML Themes and Templates for speedup your Bootstrap 4 web 
+  Free HTML Themes and Templates for speedup your Bootstrap 4 web
   development with minimal design and lightweight coding.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://BootstrapJet.com" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
 github_username:  gitShot
 
 
-permalink: /:categories/:title.html
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 collections:
   themes:

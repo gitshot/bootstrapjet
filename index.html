@@ -7,10 +7,10 @@ layout: homepage
 
  {% for post in site.themes %}
     <div class="theme">
-        <img src="{{ site.url }}/{{ post.img }}" class="responsive">
+        <img src="{{ site.url }}{{ post.image }}" class="responsive">
           <hr>
         <a href="{{ post.url | prepend: site.baseurl }}" class="btn-theme">Download</a>
-        <h4>{{ post.title }}</h4>
+        <h4>{{ post.name }}</h4>
     </div>
 
   {% endfor %}
